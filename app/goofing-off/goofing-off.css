@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.block {
+background-color: beige;
+width: 100px;
+height: 100px;
+margin-inline: auto;
+transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+transition-duration: 100ms;
+}
+
+.block:hover {
+    transform: translate(0, 60px);
+    transform: scale(1.5, 1.5);
+}

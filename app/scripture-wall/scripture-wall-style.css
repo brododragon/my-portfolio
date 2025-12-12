@@ -1,0 +1,82 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+    font-size: 1.5rem;
+    line-height: calc(2 / 1.5);
+}
+
+.scripture-card-nephi {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  background-color: #fdfbf7;
+  background-image: radial-gradient(#ffe0b2 2px, transparent 2px);
+  background-size: 30px 30px;
+  color: #5d4037;
+  padding: 50px 50px 10px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 20px auto;
+  margin-bottom: 5px;
+  text-align: center;
+  border: 8px double #d4af37;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.nephi-ref {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #8d6e63;
+  margin-top: 30px;
+  display: block;
+  letter-spacing: 1px;
+  padding-top: 12px;
+}
+.nephi-text {
+  font-size: 2.2rem;
+  line-height: 1.4;
+  color: #3e2723;
+}
+.emphasis-joy {
+  color: #bf360c;
+  font-size: 2.6rem;
+  display: block;
+  margin-top: 10px;
+  font-style: italic;
+  text-shadow: 1px 1px 0px rgba(0,0,0,0.1);
+}
+.ornament {
+  font-size: 1.5rem;
+  color: #d4af37;
+  margin: 10px 0;
+}
+
+.credit {
+    font-size: .75rem;
+    padding-top: 20px;
+}
+
+
+.third-nephi-eleven {
+    width: 60vh;
+    height: auto;
+    padding-block: 10vh;
+    padding-inline: 2.5vh;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 25px;
+    letter-spacing: .1em;
+    line-height: 2em;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #0a0a0a;
+    border: .5vh dotted #5d4037;
+}
+
+.third-nephi-eleven p {
+    font-weight: 800;
+    font-size: 1.25rem;
+    letter-spacing: inherit;
+    line-height: inherit;
+    padding: 3vh;
+}
