@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import './globals.css';
 
 export default function Home() {
@@ -22,10 +23,10 @@ export default function Home() {
       </p>
       <ul className="list-disc mx-auto">
         <li>
-          <a className="font-semibold" href="my-portfolio/projects/">See my projects</a>
+          <Link className="font-semibold" href="/projects/">See my projects</Link>
         </li>
         <li>
-          <a className="font-semibold" href="my-portfolio/scripture-wall/">Explore a wall of scriptures</a>
+          <Link className="font-semibold" href="/scripture-wall/">Explore a wall of scriptures</Link>
         </li>
       </ul>
       <div className="pb-24"></div>
