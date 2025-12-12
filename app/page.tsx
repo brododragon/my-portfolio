@@ -22,10 +22,10 @@ export default function Home() {
       </p>
       <ul className="list-disc mx-auto">
         <li>
-          <a className="font-semibold" href="projects/">See my projects</a>
+          <a className="font-semibold" href="my-portfolio/projects/">See my projects</a>
         </li>
         <li>
-          <a className="font-semibold" href="scripture-wall/">Explore a wall of scriptures</a>
+          <a className="font-semibold" href="my-portfolio/scripture-wall/">Explore a wall of scriptures</a>
         </li>
       </ul>
       <div className="pb-24"></div>
